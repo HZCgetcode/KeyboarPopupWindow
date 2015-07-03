@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 透明 -->
+    <item name="transparent" type="drawable">#00000000</item>
+    <!-- 红色 -->
+    <item name="red" type="drawable">#88e60012</item>
+    <!-- 白色 -->
+    <item name="white" type="drawable">#ffffffff</item>
+    <!-- 黄色 -->
+    <item name="yellow" type="drawable">#ffff9000</item>
+    <!-- 绿色 -->
+    <item name="green" type="drawable">#ff40929C</item>
+    <!-- 黑色 -->
+    <item name="black" type="drawable">#000000</item>
+    <!-- 蓝色 -->
+    <item name="blue" type="drawable">#343959</item>
+    <!-- 灰色 -->
+    <item name="gray" type="drawable">#808080</item>
+	<!-- 浅灰色 -->
+    <item name="lightgray" type="drawable">#A8A8A8</item>
+    
+      <item name="big_red" type="drawable">#ff0000</item>
+    <!-- 灰色 -->
+    <item name="text_color" type="drawable">#717171</item>
+    
+    
+    <item name="my_button_red_color" type="drawable">#ff6867</item>
+    <item name="my_text_blue_color" type="drawable">#52d1c6</item>
+    <item name="my_text_gray_color" type="drawable">#999999</item>
+    <item name="my_text_orange_color" type="drawable">#ff9900</item>
+    <item name="background_gray_color" type="drawable">#f2f2f2</item>
+    
+    <item name="nurse_green" type="color">#27ccb5</item>
+    
+     <item name="app_base_color" type="drawable">#a1d66b</item>
+     <item name="app_text_gray_color" type="drawable">#a4a4a4</item>
+    <item name="app_green_better" type="drawable">#8fbd5f</item>
+     <item name="app_green_b" type="drawable">#ff6867</item>
+     
+     <item name="app_green_dot" type="drawable">#02c0a6</item>
+</resources>

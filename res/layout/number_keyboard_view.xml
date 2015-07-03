@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/pop_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/nurse_bg" />
+
+    <LinearLayout
+        android:id="@+id/pop_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/btn_style_alert_dialog_background"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_title_left"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="65dp"
+                android:layout_weight="4"
+                android:text="体温:" />
+
+<!--             <TextView
+                android:id="@+id/input_value"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="right"
+                android:hint="@string/number_keyboard2"
+                android:singleLine="true" /> -->
+                
+            <EditText
+                android:id="@+id/input_value"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:background="@drawable/white"
+                android:gravity="right"
+                android:textSize="13sp"
+                android:hint="输入体温"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/tv_title_right"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="45dp"
+                android:layout_weight="2"
+                android:text=" ℃" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="190dp"
+            android:layout_height="0.1dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/number1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_bg"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/number2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/button_bg"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/number3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_bg"
+                android:text="3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/number4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_bg"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/number5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/button_bg"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/number6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_bg"
+                android:text="6" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/number7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_bg"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/number8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/button_bg"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/number9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_bg"
+                android:text="9" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/numberclean"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_bg"
+                android:text="退格" />
+
+            <Button
+                android:id="@+id/number0"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/button_bg"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/number_"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_bg"
+                android:text="." />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/transparent"
+                android:text="取消"
+                android:textColor="@drawable/red" />
+
+            <Button
+                android:id="@+id/btn_history"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:background="@drawable/transparent"
+                android:text="历史记录"
+                android:textColor="@drawable/green" />
+
+            <Button
+                android:id="@+id/btn_confirm"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginRight="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/transparent"
+                android:text="确定"
+                android:textColor="@drawable/yellow" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
